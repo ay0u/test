@@ -1,0 +1,197 @@
+﻿$axure.loadCurrentPage({
+  "url":"修改用户信息.html",
+  "generationDate":new Date(1557073067279.34),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"04aa1dd61c58410fbe9266d020187f24",
+    "type":"Axure:Page",
+    "name":"修改用户信息",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"46b921f97df04b3eb9c498747d55ddf9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"20px",
+            "fontWeight":"700",
+            "location":{
+              "x":20,
+              "y":30},
+            "size":{
+              "width":121,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"80b5e170e5d14a999e23d8990ab148b2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"20px",
+                "fontWeight":"700",
+                "location":{
+                  "x":20,
+                  "y":30},
+                "size":{
+                  "width":121,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5a344a6eb1f4421e99939006f6d35eda",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":44,
+              "y":64},
+            "size":{
+              "width":214,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2e43200cf4774e45bf21a51e4aef290c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":44,
+                  "y":64},
+                "size":{
+                  "width":214,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"be343cf68d964cc598ea1edd91ef1bb5",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":80,
+              "y":110},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"d30d88c2c3224ef3beb4870dab139304",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":80,
+              "y":155},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5bdf80c6debc401aa47593b98fc05de4",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":180,
+              "y":155},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学生列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学生列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "46b921f97df04b3eb9c498747d55ddf9":{
+      "scriptId":"u0"},
+    "80b5e170e5d14a999e23d8990ab148b2":{
+      "scriptId":"u1"},
+    "5a344a6eb1f4421e99939006f6d35eda":{
+      "scriptId":"u2"},
+    "2e43200cf4774e45bf21a51e4aef290c":{
+      "scriptId":"u3"},
+    "be343cf68d964cc598ea1edd91ef1bb5":{
+      "scriptId":"u4"},
+    "d30d88c2c3224ef3beb4870dab139304":{
+      "scriptId":"u5"},
+    "5bdf80c6debc401aa47593b98fc05de4":{
+      "scriptId":"u6"}}});

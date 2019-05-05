@@ -1,0 +1,217 @@
+﻿$axure.loadCurrentPage({
+  "url":"增加课程.html",
+  "generationDate":new Date(1557073067559.38),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8103482edf5748febb028a57ba930f30",
+    "type":"Axure:Page",
+    "name":"增加课程",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9e4f5e63926048fb8cbdf89f8df10a23",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":430,
+              "height":280}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c7e3e55649664ab29cdbcd24c86adf12",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":430,
+                  "height":280}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/增加课程/u0.png"}},
+{
+          "id":"dce7fe5c1b644fa98b27ae3fd1b1beb2",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontWeight":"700",
+            "horizontalAlignment":"center",
+            "location":{
+              "x":40,
+              "y":20},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"107aae4cc4eb47e081451bb0ff707ddd",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":70},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"952b31d1ffa743b1b3ea688edf922afb",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":70},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"11cdc8410e1f40f2a80c1a3ddf9e43d9",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":105},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"811057d3e9994f88b10301ab05d2fd50",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":105},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"66ab9947f0f64f3c82c52c75ce574f75",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":155},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查询课程",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查询课程.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"b2b48ff563a14f2b809d848e5b566d76",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":155},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 学生列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"学生列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9e4f5e63926048fb8cbdf89f8df10a23":{
+      "scriptId":"u0"},
+    "c7e3e55649664ab29cdbcd24c86adf12":{
+      "scriptId":"u1"},
+    "dce7fe5c1b644fa98b27ae3fd1b1beb2":{
+      "scriptId":"u2"},
+    "107aae4cc4eb47e081451bb0ff707ddd":{
+      "scriptId":"u3"},
+    "952b31d1ffa743b1b3ea688edf922afb":{
+      "scriptId":"u4"},
+    "11cdc8410e1f40f2a80c1a3ddf9e43d9":{
+      "scriptId":"u5"},
+    "811057d3e9994f88b10301ab05d2fd50":{
+      "scriptId":"u6"},
+    "66ab9947f0f64f3c82c52c75ce574f75":{
+      "scriptId":"u7"},
+    "b2b48ff563a14f2b809d848e5b566d76":{
+      "scriptId":"u8"}}});
